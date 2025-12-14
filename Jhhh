@@ -1,0 +1,1 @@
+Failed to place order: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ip_address' in 'field list'
