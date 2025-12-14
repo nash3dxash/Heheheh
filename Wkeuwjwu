@@ -1,0 +1,13 @@
+[Sun Dec 14 06:34:24 2025] 85.117.56.104:56200 Accepted
+[Sun Dec 14 06:34:24 2025] Database connection successful: host=public-test-dgsyoehcssyt.db.upclouddatabases.com port=11569 db=defaultdb user=upadmin
+[Sun Dec 14 06:34:24 2025] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 in /root/nass/notifications.php:17   Stack trace:                                                #0 /root/nass/notifications.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /root/nass/notifications.php on line 17
+[Sun Dec 14 06:34:24 2025] 85.117.56.104:56200 [500]: POST /notifications.php - Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 in /root/nass/notifications.php:17
+Stack trace:
+#0 /root/nass/notifications.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /root/nass/notifications.php on line 17
+[Sun Dec 14 06:34:24 2025] 85.117.56.104:56200 Closing
+[Sun Dec 14 06:34:24 2025] 85.117.56.104:56201 Accepted
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[
